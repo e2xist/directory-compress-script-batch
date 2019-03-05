@@ -47,3 +47,4 @@ REM  result ->  01:40:03
 SET _MY_TIME=%_MY_TIME::=%
 REM  result ->  014003
 SET _MY_DATETIME=%_MY_DATE%_%_MY_TIME%
+REM =============================
