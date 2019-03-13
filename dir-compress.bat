@@ -34,18 +34,18 @@ GOTO :EOF
 REM =============================
 REM 함수 구현 부분
 :SETDATETIME
-REM 결과 -> 2015-03-12
+REM 결과 : 2015-03-12
 SET _MY_DATE=%DATE%
-REM 결과 -> 20150312
+REM 결과 : 20150312
 SET _MY_DATE=%_MY_DATE:-=%
-REM 결과 -> 1:40:03.01
+REM 결과 : 1:40:03.01
 SET _MY_TIME=%TIME%
-REM 결과 ->  01:40:03.01
+REM 결과 : 01:40:03.01
 SET _MY_TIME=%_MY_TIME: =0%
-REM 결과 ->  01:40:03
+REM 결과 : 01:40:03
 SET _MY_TIME=%_MY_TIME:~0,-3%
-REM 결과 ->  014003
+REM 결과 : 014003
 SET _MY_TIME=%_MY_TIME::=%
-REM 최종 결과 -> 20150312_014003
+REM 최종 결과 : 20150312_014003
 SET _MY_DATETIME=%_MY_DATE%_%_MY_TIME%
 REM =============================
